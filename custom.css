@@ -1,12 +1,7 @@
 * {
     box-sizing: border-box;
 }
-.navbar-text{
-    color: white;
-}
-.nav-link{
-    color: white;
-}
+
 .center {
     text-align: center;
     margin-left: auto;
