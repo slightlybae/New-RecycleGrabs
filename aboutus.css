@@ -21,3 +21,6 @@
     padding-right: 30px;
     color: rgb(46, 46, 46);
 }
+.navbar-toggler{
+    background-color: aqua;
+}
