@@ -2,24 +2,31 @@
     box-sizing: border-box;
 }
 
-.center {
-    text-align: center;
-    margin-left: auto;
-    margin-right: auto;
+.container{
+    padding-top: 30px;
+    padding-bottom: 50px;
+}
+.recycle-text{
+    color: white;
 }
 
-.center img{
-    width: 20%;
+.recycle-textt{
+    padding-top: 20px;
+}
+.lead{
+    color: white;
+    font-size: 18px;
+}
+
+.icon-image{
+    text-align: center;
+}
+
+.img-fluid{
+    max-width: 50%;
     height: auto;
 }
-.section1{
-    margin-left: auto;
-    margin-right: auto;
-}
-.section1 p{
-    font-size: 18px;
-    text-align: left;
-    padding-left: 30px;
-    padding-right: 30px;
-    color: rgb(46, 46, 46);
+
+.footer{
+    margin-top: 150px;
 }
