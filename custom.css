@@ -103,20 +103,34 @@ align-items: center;
     padding: 1rem 1rem;
 }
 .section-2{
+    max-width: 900px;
     margin-left: auto;
     margin-right: auto;
     margin-top: 20px;
     padding-left: 30px;
     padding-right: 30px;
-    justify-content: space-around;
 }
+
+
 .section-3{
+    max-width: 900px;
     margin-left: auto;
     margin-right: auto;
     margin-top: 40px;
     padding-left: 30px;
     padding-right: 30px;
-    justify-content: space-around;
+}
+
+.mr-2 {
+    margin-right: 0.5rem;
+}
+  
+.section-3-inner {
+ display: inline-flex;
+ overflow: auto;
+ width: 100%;
+ padding: 10px;
+ box-sizing: border-box;
 }
 
 .footer{
