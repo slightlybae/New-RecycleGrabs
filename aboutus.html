@@ -2,20 +2,21 @@
 <html lang="en">
 
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
-  <link href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/3.10.2/mdb.min.css" rel="stylesheet" />
-  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" rel="stylesheet" />
+  <!-- <link href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/3.10.2/mdb.min.css" rel="stylesheet" /> -->
+  <!-- <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" rel="stylesheet" /> -->
   <title>RecycleGrabs</title>
   <link rel="stylesheet" href="aboutus.css">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 
 <body>
+  <!-- Navigation -->
   <nav class="navbar navbar-expand-lg navbar-light bg__gradient">
-    <div class="container-fluid">
+    <div class="container-fluid maximum-width">
       <a class="navbar-brand active" aria-current="page" href="index.html">
         <img src="Images\LOGO.png" alt="" width="130" height="40">
       </a>
@@ -39,34 +40,55 @@
           </li>
         </ul>
         <span class="navbar-text text-white">
-          Register/Login
+          <!-- Account -->
+          <div class="nav-item dropdown ">
+            <a class="nav-link dropdown-toggle text-white" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Account
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+              <li><a class="dropdown-item" href="#">Sign In</a></li>
+              <li><a class="dropdown-item" href="#">My Account</a></li>
+              <li><a class="dropdown-item" href="#">Orders</a></li>
+              <li><a class="dropdown-item" href="#">Saved Items</a></li>
+            </ul>
+          </div>
         </span>
       </div>
     </div>
   </nav>
+  <!-- Navigation -->
 
-  <div class="center">
-    <img src="images\recyclegrab.png" alt="">
-  </div>
+  <!-- Section 1 -->
+  <div class="jumbotron bg__gradient jumbotron-fluid container-fluid section-1">
+    <div class=" container d-flex col-md-12 jumbotron-inner maximum-width">
+      <div class="flex-grow-1 col-md-6 recycle-textt">
+        <!-- <h1 class="display-4 fs-2 fw-bold recycle-text">Recycle,</h1> -->
+        <!-- <h1 class="display-4 fs-2 fw-bold recycle-text">Buy and Sell</h1> -->
+        <span class="display-4 fs-2 fw-bold recycle-text">Recycle,<br> Buy and Sell</span>
+        <p class="lead lh-base">We can help you recylce your waste products,
+          sell it and also deliver recycled items you buy from us.
+        </p>
+        <p class="lead ">
+          <a class="btn btn-light btn-lg fw-bold" href="#" role="button">Get Started</a>
+        </p>
+      </div>
+      <div class="icon-image col-md-6">
+        <img src="Images\recycle-can-no-bg.png" class="img-fluid" alt="Responsive image">
+      </div>
+    </div>
 
-  <div class="section1">
-    <p id="text1">RecycleGrabs is a community oriented organization, with focus on
-      Waste Recycling, Waste Management and Education, Buying and Selling of Recyclables.
-      We motivate households, enterprise and individuals to sell their plastic wastes,
-      and other recyclables to recycling entities and companies.</p>
-  </div>
-
+ 
 
   <!-- Footer -->
-  <footer class="text-center text-white footer" style="background-color: rgb(56, 56, 56)">
+  <footer style="background-color: rgb(56, 56, 56)" class="text-center text-white footer p-4">
     <!-- Grid container -->
-    <div class="container p-4">
+    <div class="container">
 
       <!-- Grid row-->
-      <div class="row text-center  d-flex justify-content-center pt-5 mb-3">
+      <div class="row text-center  d-flex justify-content-center">
 
         <!-- Grid column -->
-        <div class="col-md-2 mb-3">
+        <div class="col-md-2">
           <h6 class="text-uppercase font-weight-bold">
             <a class="text-reset text-decoration-none" href="#!">About us</a>
           </h6>
@@ -74,15 +96,15 @@
         <!-- Grid column -->
 
         <!-- Grid column -->
-        <div class="col-md-2 mb-3">
+        <div class="col-md-2">
           <h6 class="text-uppercase font-weight-bold">
-            <a class="text-reset text-decoration-none" href="#!">Buy&Sell</a>
+            <a class="text-reset text-decoration-none" href="#!">Buy&amp;Sell</a>
           </h6>
         </div>
         <!-- Grid column -->
 
         <!-- Grid column -->
-        <div class="col-md-2 mb-3">
+        <div class="col-md-2">
           <h6 class="text-uppercase font-weight-bold">
             <a class="text-reset text-decoration-none" href="#!">Blog</a>
           </h6>
@@ -90,7 +112,7 @@
         <!-- Grid column -->
 
         <!-- Grid column -->
-        <div class="col-md-2 mb-3">
+        <div class="col-md-2">
           <h6 class="text-uppercase font-weight-bold">
             <a class="text-reset text-decoration-none" href="#!">Contact Us</a>
           </h6>
@@ -100,10 +122,9 @@
       </div>
       <!-- Grid row-->
 
-
       <!-- Section: Text -->
-      <section class="mb-4">
-        <p>
+      <section class="">
+        <p style="display: none;">
           RecycleGrab is a Community Oriented Organization, with focus on Waste Recycling,
           Waste Management and Education, and also Buying and Selling of Waste products.
         </p>
@@ -111,7 +132,7 @@
       <!-- Section: Text -->
 
       <!-- Section: Social media -->
-      <section class="mb-4">
+      <section class="">
         <!-- Facebook -->
         <a class="btn btn-link btn-floating btn-lg text-light m-1" href="#!" role="button"><i
             class="bi bi-facebook-f"></i></a>
@@ -121,7 +142,7 @@
             class="bi bi-twitter"></i></a>
 
         <!-- Google -->
-        <a class="btn btn-link btn-floating btn-lg text-light m-1" href="#!" role="button"><i i
+        <a class="btn btn-link btn-floating btn-lg text-light m-1" href="#!" role="button"><i i=""
             class="bi bi-facebook"></i></a>
 
         <!-- Instagram -->
@@ -139,7 +160,7 @@
     <!-- Grid container -->
 
     <!-- Copyright -->
-    <div class="text-center p-3">
+    <div class="text-center">
       © 2020 Copyright:
       <a class="text-light" href="https://mdbootstrap.com/">RecycleGrabs.com</a>
     </div>
@@ -148,7 +169,7 @@
   </footer>
   <!-- Footer -->
 
-  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/3.10.2/mdb.min.js"></script>
+  <script src="custom.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
     crossorigin="anonymous"></script>
