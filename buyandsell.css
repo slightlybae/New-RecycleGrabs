@@ -1,0 +1,128 @@
+* {
+    box-sizing: border-box;
+}
+.bg__gradient { background: rgb(0,92,70); background: linear-gradient(90deg, rgba(0,92,70,1) 0%, rgba(15,131,0,1) 35%, rgba(34,139,34,1) 100%); } 
+
+
+@media(min-width:768px){
+ .maximum-width{
+        max-width: 900px;
+margin-left: auto;
+margin-right: auto;
+}
+}
+.recycle-text{
+    color: white;
+}
+
+.recycle-textt{
+    padding-top: 10px;
+}
+.topp{
+    width: auto;
+    height: auto;
+    display: flex;
+    /* margin-left: auto;
+    margin-right: auto; */
+    background-color: #9ddac0;
+    justify-content: space-evenly;
+}
+
+.searchcontainer{
+    position: relative;
+    display: flex;
+    /* min-width: 100px;  */
+    margin-top: 30px;
+}
+
+.searchicon {
+    position: absolute;
+    top: 6px;
+    left: 8px;
+    width: 14px;
+}
+
+.inputfield {
+    border: 1px solid black;
+    border-radius: 5px;
+    height: 35x;
+    padding-left: 30px;
+    width: 150px;
+    outline: 0;
+    background-color: transparent;    
+}
+
+.searchbtn{
+    margin-left: 5px;
+    background-color: #00834C;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    height: 35px;
+    width: auto;
+    
+}
+
+.accountbtn{
+    margin-top: 30px;
+    text-align: center;
+}
+.acctbtn{
+    background-color: transparent;
+    border: 1px solid black;
+    border-radius: 5px;
+    height: 35px;
+    width: auto;
+    font-weight: bolder;
+    font-size: large;
+}
+
+.persons{
+    color: black;
+    height: 40px;
+    width: auto;
+    font-weight: bolder;
+    font-size: large; 
+} 
+
+.cart{
+    margin-top: 30px;
+}
+
+.cart p{
+    width: auto;
+    height: 35px;
+    font-size: 20px;
+    color: white;  
+}
+.center{
+    text-align: center;   
+}
+
+.center p {
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-bottom: 60px;
+    color: #00834C;
+    
+}
+.imagerow{
+    /* margin-left: auto;
+    margin-right: auto; */
+    margin-top: 30px;
+    margin-bottom: 30px;
+    display: flex;
+    text-align: center;
+    justify-content: space-evenly;
+    /* padding-right: 30px;
+    padding-left: 30px;  */
+}
+.column img{
+    width: 70%;
+    height: auto;
+}
+.footer{
+    margin-top: 150px;
+}
+
