@@ -13,7 +13,7 @@ margin-right: auto;
 }
 .title {
     margin-left: 10px;
-  }
+}
 .recycle-text{
     color: white;
 }
@@ -25,8 +25,6 @@ margin-right: auto;
     color: white;
     font-size: 15px;
 }
-
-
 .img-fluid{
     max-width: 70%;
     height: auto;
