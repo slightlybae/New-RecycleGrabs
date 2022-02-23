@@ -76,7 +76,17 @@ margin-right: auto;
 .mr-2 {
     margin-right: 0.5rem;
 }
-
+.modalimage{
+    width: 50%;
+    height: 200px;
+    float: left;
+}  
+.modal-body{
+    display: flex; 
+}
+.modalright{
+    padding-left: 10px;
+}
   
 .footer{
     margin-top: 150px;
