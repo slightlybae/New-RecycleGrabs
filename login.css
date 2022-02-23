@@ -11,6 +11,11 @@ margin-left: auto;
 margin-right: auto;
 }
 }
+@media (max-width: 500px) {  
+    .rightaligned {
+      display: none !important;
+   }
+}
 .recycle-text{
     color: white;
 }
@@ -18,9 +23,12 @@ margin-right: auto;
 .recycle-textt{
     padding-top: 10px;
 }
+.big-formdiv{
+    display: flex;
+}
 .outer1{
-    padding-right: 20px;
-    padding-left: 20px;
+    padding-right: 5px;
+    padding-left: 5px;
     margin-top: 25px;
     margin-bottom: 25px;
 }
@@ -44,13 +52,14 @@ input[type=email], input[type=password] {
     box-sizing: border-box;
     background: #f1f1f1;
 }
+/* .buttons1{
+    width: 30px;
+} */
 span.psw {
     float: right;
-    padding-top: 16px;
 }
-.buttons{
+.buttons2{
     margin-top: 25px;
-  
 }
 .btns{
     margin-right: 5px;
@@ -63,7 +72,16 @@ span.psw {
 .form-text{
     margin-top: 30px;
 }
+.rightaligned{
+    float: right;
     
+ } 
+.rightaligned img{
+    width: 80%;
+    height: auto;
+    float: right;
+    margin-top: 100px; 
+}
 .footer{
     margin-top: 150px;
 }
