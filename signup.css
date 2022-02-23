@@ -10,3 +10,7 @@ body{
     margin-top: 100px;
     color: white;
 }
+.form-controls{
+    width: 40px;
+    text-align: center;
+}
