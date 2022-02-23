@@ -18,6 +18,52 @@ margin-right: auto;
 .recycle-textt{
     padding-top: 10px;
 }
+.outer1{
+    padding-right: 20px;
+    padding-left: 20px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+.headertext{
+    font-size:20px;
+    margin-bottom: 30px;
+}
+.or{
+   margin-top: 25px;
+   margin-bottom: 25px;
+   padding-right: 140px;
+   padding-left: 140px;
+}
+/* Full-width input fields */
+input[type=email], input[type=password] {
+    width: 100%;
+    padding: 5px;
+    margin: 5px 0 22px 0;
+    display: block;
+    border: none;
+    box-sizing: border-box;
+    background: #f1f1f1;
+}
+span.psw {
+    float: right;
+    padding-top: 16px;
+}
+.buttons{
+    margin-top: 25px;
+  
+}
+.btns{
+    margin-right: 5px;
+    width: 100px;
+    border: 1px solid beige;
+}
+.formdiv a{
+    text-decoration: none;
+}
+.form-text{
+    margin-top: 30px;
+}
+    
 .footer{
     margin-top: 150px;
 }

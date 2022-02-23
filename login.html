@@ -57,23 +57,49 @@
     </nav>
     <!-- Navigation -->
 
-    <div class="maximum-width">
+    <div class="maximum-width outer1">
         <img src="Images\recyclegrab.png" alt="" width="130" height="40">
     </div>
 
 
     <!--Form section-->
-    <div class="maximum-width">
-        <div>
+    <div class="maximum-width outer1 ">
+        <div class="headertext">
             <p>Welcome Back, Please login<br> to your account.</p>
         </div>
-        <div>
-           
+        <div class="">
             <button type="button" class="btn btn-primary btn-floating" href="#!" role="button"><i
-                class="bi bi-facebook-f"></i>Login with facebook</button>
-            <button type="button" class="btn btn-primary">Login with twitter</button>
+                    class="bi bi-meta"></i> login with meta</button>
+            <button type="button" class="btn btn-primary btn-floating" href="#!" role="button"><i
+                    class="bi bi-twitter"></i> Login with twitter</button>
         </div>
-        
+        <div class="or">
+            <p>- OR -</p>
+        </div>
+
+        <form class="formdiv">
+            <div class="inner-formdiv">
+                <label for="email">Email Address</label>
+                <input type="email" placeholder="" name="email">
+
+                <label for="password">Password</label>
+                <input type="password" placeholder="" name="password">
+
+                <div>
+                    <label>
+                        <input type="checkbox" checked="" name="remember"> Remember me
+                    </label>
+                    <span class="psw">Forgot <a href="#">password?</a></span>
+                </div>
+                <div class="buttons">
+                    <button type="submit" class="btn btn-danger btn-floating btns">Login</button>
+                    <button type="submit" class="btn btn-light btn-floating btns">SignUp</button>
+                </div>
+                <div id="formHelp" class="form-text">By Signing Up, you agree to RecycleGrabs <a href="#">Terms and Condition</a> &
+                    <a href="#">Privacy Policy</a>.</div>
+
+            </div>
+        </form>
 
     </div>
 
