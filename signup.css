@@ -1,0 +1,4 @@
+* {
+    box-sizing: border-box;
+}
+.bg__gradient { background: rgb(0,92,70); background: linear-gradient(90deg, rgba(0,92,70,1) 0%, rgba(15,131,0,1) 35%, rgba(34,139,34,1) 100%); } 
