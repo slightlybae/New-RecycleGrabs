@@ -18,6 +18,15 @@ margin-right: auto;
 .recycle-textt{
     padding-top: 10px;
 }
+.middle-image{
+    margin-top: 30px;
+    text-align: center;
+}
+.middle-image img{
+    width: 50%;
+    height: auto;
+
+}
 .footer{
     margin-top: 150px;
 }
