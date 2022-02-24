@@ -3,14 +3,52 @@
 }
 .bg__gradient { background: rgb(0,92,70); background: linear-gradient(90deg, rgba(0,92,70,1) 0%, rgba(15,131,0,1) 35%, rgba(34,139,34,1) 100%); } 
 body{
+    background-size: cover;
+    background-repeat: no-repeat;
     background: rgb(0,92,70); background: linear-gradient(90deg, rgba(0,92,70,1) 0%, rgba(15,131,0,1) 35%, rgba(34,139,34,1) 100%); 
 }
 .big-formdiv{
     text-align: center;
     margin-top: 100px;
     color: white;
+    width: 100%;
 }
-.form-controls{
-    width: 40px;
-    text-align: center;
+.big-formdiv a{
+    color: white;
 }
+
+.inner-formcontrol{
+    display: block;
+}
+/* Full-width input fields */
+input[type=email], input[type=text], input[type=password] {
+    padding: 10px;
+    border: none;
+    background: #f1f1f1; 
+    box-sizing: border-box;
+    width: 30%;
+    height: 2.75rem;
+    margin-bottom: 10px;
+}
+.btn{
+    /* appearance: none; */
+    height: 3.125rem;
+    width: 20%;
+    font-size: 1.2rem;
+    font-weight: 400;
+    color: rgb(255, 255, 255);
+    border-radius: 1.625rem;
+    /* border-width: 0px; */
+    margin-top: 20px;
+    
+}
+input[type=text]:focus, input[type=password]:focus {
+    background-color: #ddd;
+    outline: none;
+}
+@media (max-width: 500px) {  
+     .btn{
+        width: 40%;
+ }
+}
+
