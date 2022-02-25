@@ -7,17 +7,17 @@ body{
     background-repeat: no-repeat;
     background: rgb(0,92,70); background: linear-gradient(90deg, rgba(0,92,70,1) 0%, rgba(15,131,0,1) 35%, rgba(34,139,34,1) 100%); 
 }
-.big-formdiv{
+.signupbig-formdiv{
     text-align: center;
     margin-top: 100px;
     color: white;
     width: 100%;
 }
-.big-formdiv a{
+.signupbig-formdiv a{
     color: white;
 }
 
-.inner-formcontrol{
+.signupinner-formcontrol{
     display: block;
 }
 /* Full-width input fields */
@@ -30,7 +30,7 @@ input[type=email], input[type=text], input[type=password] {
     height: 2.75rem;
     margin-bottom: 10px;
 }
-.btn{
+.signupbtn{
     /* appearance: none; */
     height: 3.125rem;
     width: 20%;
@@ -47,7 +47,7 @@ input[type=text]:focus, input[type=password]:focus {
     outline: none;
 }
 @media (max-width: 500px) {  
-     .btn{
+     .signupbtn{
         width: 40%;
  }
 }

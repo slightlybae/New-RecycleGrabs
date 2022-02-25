@@ -18,7 +18,7 @@ margin-right: auto;
 /* .recycle-textt{
     padding-top: 10px;
 } */
-.lead{
+.contactus-lead{
     color: white;
     font-size: 18px;
 }
@@ -27,7 +27,7 @@ margin-right: auto;
     height: auto;
 }
 
-.jumbotron {
+.contactus-jumbotron {
     height: 55vh;
 }
 
@@ -59,11 +59,11 @@ align-items: center;
     display: none !important;
  }
 
-.jumbotron {
+.contactus-jumbotron {
      height: 55vh;
 }
 }
-.section-2{
+.contactussection-2{
    
     max-width: 900px;
     margin-left: auto;
@@ -91,10 +91,10 @@ align-items: center;
     flex: 1 1 auto;
     padding: 1rem 1rem;
 }
-.card-tex{
+.card-textt{
     text-align: left;
 }
-.section-3{
+.contactussection-3{
     margin-top: 50px; 
     padding-right: 5px;
     padding-left: 5px;

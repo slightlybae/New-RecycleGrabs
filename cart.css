@@ -46,7 +46,7 @@ margin-right: auto;
            width: 170px;
 }
 }
-.section-2{
+.cartsection-2{
     max-width: 900px;
     margin-left: auto;
     margin-right: auto;
@@ -54,7 +54,7 @@ margin-right: auto;
     padding-left: 5px;
     padding-right: 5px;
 }
-.section-2-inner {
+.cartsection-2-inner {
     display: inline-flex;
     overflow: auto;
     width: 100%;
@@ -62,15 +62,15 @@ margin-right: auto;
     box-sizing: border-box;
    }
 
-.section-2-inner div{
+.cartsection-2-inner div{
     margin-right: 0.2rem;
 }
   
-.section-2-inner div:not(:nth-child(3n)) {
+.cartsection-2-inner div:not(:nth-child(3n)) {
     margin-right: 0.2rem;
 }
   
-.section-2{
+.cartsection-2{
     color: rgb(18,51,63) !important;
 }
 

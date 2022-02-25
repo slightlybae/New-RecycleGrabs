@@ -12,7 +12,7 @@ margin-right: auto;
 }
 }
 @media (max-width: 500px) {  
-    .rightaligned {
+    .login-rightaligned {
       display: none !important;
    }
 }
@@ -23,7 +23,7 @@ margin-right: auto;
 .recycle-textt{
     padding-top: 10px;
 }
-.big-formdiv{
+.login-big-formdiv{
     display: flex;
 }
 .outer1{
@@ -32,11 +32,11 @@ margin-right: auto;
     margin-top: 25px;
     margin-bottom: 25px;
 }
-.headertext{
+.login-headertext{
     font-size:20px;
     margin-bottom: 30px;
 }
-.or{
+.login-or{
    margin-top: 25px;
    margin-bottom: 25px;
    padding-right: 140px;
@@ -58,7 +58,7 @@ input[type=email], input[type=password] {
 span.psw {
     float: right;
 }
-.buttons2{
+.login-buttons2{
     margin-top: 25px;
 }
 .btns{
@@ -66,17 +66,17 @@ span.psw {
     width: 100px;
     border: 1px solid beige;
 }
-.formdiv a{
+.login-formdiv a{
     text-decoration: none;
 }
-.form-text{
+.login-form-text{
     margin-top: 30px;
 }
-.rightaligned{
+.login-rightaligned{
     float: right;
     
  } 
-.rightaligned img{
+.login-rightaligned img{
     width: 80%;
     height: auto;
     float: right;

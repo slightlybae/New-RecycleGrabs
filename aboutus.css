@@ -1,4 +1,4 @@
-* {
+/* * {
     box-sizing: border-box;
 }
 .bg__gradient { background: rgb(0,92,70); background: linear-gradient(90deg, rgba(0,92,70,1) 0%, rgba(15,131,0,1) 35%, rgba(34,139,34,1) 100%); } 
@@ -18,95 +18,48 @@ margin-right: auto;
 .recycle-textt{
     padding-top: 10px;
 }
-.middle{
+.section1{
     margin-top: 50px;
+    padding-left: 5px;
+    padding-right: 5px;
     text-align: center;
 }
-.middle p {
+.section1 img{
+    width: 40%;
+    height: auto;
+}
+.middle p{
     font-size: 20px ;
     font-weight: bold;
-    margin-top: 15px;
     color: #00834C;
 }
-.section1{
-   display: flex;
-   margin-top: 50px;
-   padding-left: 5px;
-   padding-right: 5px;
-}
-
-.text1{
-    width: 50%;
-    /* padding-left: 30px; */
-}
-
-.text1 p{
-    line-height: 50px;  
+.text1, .text2, .text3{
     font-size: 17px;
-}
-
-.right{
-    width: 50%;
-    /* padding-right: 30px; */
-}
-
-.right img{
-    height: 250px;
-    
+    line-height: 50px; 
+    text-align: left;
 }
 .section2{
-    margin-top: 30px; 
+    margin-top: 50px;
     padding-left: 5px;
     padding-right: 5px;
-}
-.section2 p{
-    font-size: 17px;
-    line-height: 50px; 
-    text-align: left;
-}
-
-.section3{
-    margin-top: 50px;
     text-align: center;
 }
-
-.section3 img{
+.section2 img{
     width: 40%;
     height: auto;
-}
-.section4 p{
-    font-size: 17px;
-    line-height: 50px; 
-    text-align: left;
-    padding-left: 5px;
-    padding-right: 5px;
-}
-.section5{
     margin-top: 50px;
-    padding-left: 5px;
-    padding-right: 5px;
 }
-.section5 #topic{
-    color: #00834C;
+.topic {
+    font-size: 20px ;
     font-weight: bold;
-    text-align: center;
-    font-size: large;
+    color: #00834C;
 }
-.section5 p{
+.text4, .text5{
     font-size: 17px;
     line-height: 50px; 
     text-align: left;
-}        
-.section6{
-    margin-top: 50px;
-    text-align: center;
-}
-
-.section6 img{
-    width: 40%;
-    height: auto;
 }
 .footer{
     margin-top: 150px;
 }
-
+ */

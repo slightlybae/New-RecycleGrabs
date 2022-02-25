@@ -11,7 +11,7 @@ margin-left: auto;
 margin-right: auto;
 }
 }
-.title {
+.itemtitle {
     margin-left: 10px;
 }
 .recycle-text{
@@ -86,14 +86,6 @@ align-items: center;
     text-anchor: middle;
     user-select: none;
 }
-/* .card-img, .card-img-top {
-    border-top-left-radius: calc(0.25rem - 1px);
-    border-top-right-radius: calc(0.25rem - 1px);
-}
-
-.card-img, .card-img-bottom, .card-img-top {
-    width: 100%;
-} */
 .card-body {
     flex: 1 1 auto;
     padding: 1rem 1rem;
@@ -215,9 +207,369 @@ align-items: center;
         padding-left: 0;
       }
 }
-
-
 .footer{
     margin-top: 150px;
 }
 
+/* About us css file*/
+.section1{
+    margin-top: 50px;
+    padding-left: 5px;
+    padding-right: 5px;
+    text-align: center;
+}
+.section1 img{
+    width: 40%;
+    height: auto;
+}
+.middle p{
+    font-size: 20px ;
+    font-weight: bold;
+    color: #00834C;
+}
+.text1, .text2, .text3{
+    font-size: 17px;
+    line-height: 50px; 
+    text-align: left;
+}
+.section2{
+    margin-top: 50px;
+    padding-left: 5px;
+    padding-right: 5px;
+    text-align: center;
+}
+.section2 img{
+    width: 40%;
+    height: auto;
+    margin-top: 50px;
+}
+.topic {
+    font-size: 20px ;
+    font-weight: bold;
+    color: #00834C;
+}
+.text4, .text5{
+    font-size: 17px;
+    line-height: 50px; 
+    text-align: left;
+}
+/* About us css file*/
+
+/* Buy and Sell css file*/
+.center{
+    margin-top: 20px;
+    margin-bottom: 60px; 
+    text-align: center;  
+}
+
+.center p {
+    font-size: 20px;
+    font-weight: bold;
+    color:  rgba(0,92,70,1);
+}
+.shadow-sm {
+    box-shadow: 0 .125rem .25rem rgba(0,0,0,.075)!important;
+}
+
+.card {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1px solid rgba(0,0,0,.125);
+    border-radius: 0.25rem;
+}
+.card-body {
+    flex: 1 1 auto;
+    padding: 1rem 1rem;
+}
+.section-2{
+    max-width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+.section-2-inner {
+    display: inline-flex;
+    overflow: auto;
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.section-2-inner div{
+    margin-right: 0.2rem;
+}
+.section-2-inner div:not(:nth-child(3n)) {
+    margin-right: 0.2rem;
+}
+.section-2{
+    color: rgb(18,51,63) !important;
+}
+.mr-2 {
+    margin-right: 0.5rem;
+}
+/* Buy and Sell css file*/
+
+
+/**Cart css code**/
+
+.cartsection-1{
+    margin-top: 20px;
+    text-align: center;
+    width: 100%; 
+    height: auto;
+    border: 1px solid gray;
+    border-radius: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-right: 5px;
+    padding-right: 5px;
+
+}
+.cart-image img{
+    width: 10%;
+    height: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.cart-text p{
+   margin-top: 20px;
+   margin-bottom: 20px;
+}
+.cart-btn button{
+    width: 25%;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    background-color: rgba(0,92,70,1) ;
+    color: white;
+}
+@media(max-width:768px){
+    .cart-btn button{
+           width: 170px;
+}
+}
+.cartsection-2{
+    max-width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+.cartsection-2-inner {
+    display: inline-flex;
+    overflow: auto;
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+   }
+
+.cartsection-2-inner div{
+    margin-right: 0.2rem;
+}
+  
+.cartsection-2-inner div:not(:nth-child(3n)) {
+    margin-right: 0.2rem;
+}
+  
+.cartsection-2{
+    color: rgb(18,51,63) !important;
+}
+
+.mr-2 {
+    margin-right: 0.5rem;
+}
+/*Cart css code*/
+
+
+/*Contactus css code*/
+
+.contactustitle{
+    margin-top: 50px;
+}
+.contactus-lead{
+    color: white;
+    font-size: 18px;
+}
+.img-fluid{
+    max-width: 70%;
+    height: auto;
+}
+
+.contactus-jumbotron {
+    height: 55vh;
+}
+.card-textt{
+    text-align: left;
+}
+.contactussection-3{
+    margin-top: 50px; 
+    padding-right: 5px;
+    padding-left: 5px;
+} 
+.contactusheader-text{
+    color: #fff;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.contactusheader-text h2{
+  font-size: 40px;
+}
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: none;
+    /* border-radius: 4px;
+    box-sizing: border-box; */
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+  
+.contactusbtn{
+    background-color: #04AA6D;
+    color: white;
+    /* color: white; */
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+  
+.contactusbtn:hover {
+    background-color: #45a049;
+}
+  
+.contactus-formcontainer {
+    border-radius: 5px;
+}
+
+/*Contactus css code*/
+
+/*Login css code*/
+
+@media (max-width: 500px) {  
+    .login-rightaligned {
+      display: none !important;
+   }
+}
+.login-big-formdiv{
+    display: flex;
+}
+.outer1{
+    padding-right: 5px;
+    padding-left: 5px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+.login-headertext{
+    font-size:20px;
+    margin-bottom: 30px;
+}
+.login-or{
+   margin-top: 25px;
+   margin-bottom: 25px;
+   padding-right: 140px;
+   padding-left: 140px;
+}
+/* Full-width input fields */
+input[type=email], input[type=password] {
+    width: 100%;
+    padding: 5px;
+    margin: 5px 0 22px 0;
+    display: block;
+    border: none;
+    box-sizing: border-box;
+    background: #f1f1f1;
+}
+/* .buttons1{
+    width: 30px;
+} */
+span.psw {
+    float: right;
+}
+.login-buttons2{
+    margin-top: 25px;
+}
+.btns{
+    margin-right: 5px;
+    width: 100px;
+    border: 1px solid beige;
+}
+.login-formdiv a{
+    text-decoration: none;
+}
+.login-form-text{
+    margin-top: 30px;
+}
+.login-rightaligned{
+    float: right;
+    
+ } 
+.login-rightaligned img{
+    width: 80%;
+    height: auto;
+    float: right;
+    margin-top: 100px; 
+}
+
+/*Login css code*/
+
+/*signup css code*/
+.signupdivbig{
+    background-size: cover;
+    background-repeat: no-repeat;
+    background: rgb(0,92,70); background: linear-gradient(90deg, rgba(0,92,70,1) 0%, rgba(15,131,0,1) 35%, rgba(34,139,34,1) 100%); 
+}
+.signupbig-formdiv{
+    text-align: center;
+    margin-top: 100px;
+    color: white;
+    width: 100%;
+}
+.signupbig-formdiv a{
+    color: white;
+}
+
+.signupinner-formcontrol{
+    display: block;
+}
+/* Full-width input fields */
+input[type=email], input[type=text], input[type=password] {
+    padding: 10px;
+    border: none;
+    background: #f1f1f1; 
+    box-sizing: border-box;
+    width: 30%;
+    height: 2.75rem;
+    margin-bottom: 10px;
+}
+.signupbtn{
+    /* appearance: none; */
+    height: 3.125rem;
+    width: 20%;
+    font-size: 1.2rem;
+    font-weight: 400;
+    color: rgb(255, 255, 255);
+    border-radius: 1.625rem;
+    /* border-width: 0px; */
+    margin-top: 20px;
+    
+}
+input[type=text]:focus, input[type=password]:focus {
+    background-color: #ddd;
+    outline: none;
+}
+@media (max-width: 500px) {  
+     .signupbtn{
+        width: 40%;
+ }
+}
+/*signup css code*/
