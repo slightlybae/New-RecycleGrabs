@@ -212,6 +212,7 @@ align-items: center;
 }
 
 /* About us css file*/
+/**
 .section1{
     margin-top: 50px;
     padding-left: 5px;
@@ -252,10 +253,11 @@ align-items: center;
     font-size: 17px;
     line-height: 50px; 
     text-align: left;
-}
+} **/
 /* About us css file*/
 
 /* Buy and Sell css file*/
+/**
 .center{
     margin-top: 20px;
     margin-bottom: 60px; 
@@ -313,11 +315,12 @@ align-items: center;
 }
 .mr-2 {
     margin-right: 0.5rem;
-}
+} **/
 /* Buy and Sell css file*/
 
 
 /**Cart css code**/
+/**
 
 .cartsection-1{
     margin-top: 20px;
@@ -384,11 +387,12 @@ align-items: center;
 
 .mr-2 {
     margin-right: 0.5rem;
-}
-/*Cart css code*/
+} **/
+/* Cart css code*/
 
 
 /*Contactus css code*/
+/**
 
 .contactustitle{
     margin-top: 50px;
@@ -425,8 +429,6 @@ input[type=text], select, textarea {
     width: 100%;
     padding: 12px;
     border: none;
-    /* border-radius: 4px;
-    box-sizing: border-box; */
     margin-top: 6px;
     margin-bottom: 16px;
     resize: vertical;
@@ -436,24 +438,25 @@ input[type=text], select, textarea {
     background-color: #04AA6D;
     color: white;
     /* color: white; */
-    padding: 12px 20px;
+    /* padding: 12px 20px;
     border: none;
     border-radius: 4px;
     cursor: pointer;
     margin-bottom: 20px;
-}
+} */
   
-.contactusbtn:hover {
+/* .contactusbtn:hover {
     background-color: #45a049;
 }
   
 .contactus-formcontainer {
     border-radius: 5px;
-}
+} */
 
 /*Contactus css code*/
 
 /*Login css code*/
+/**
 
 @media (max-width: 500px) {  
     .login-rightaligned {
@@ -477,10 +480,10 @@ input[type=text], select, textarea {
    margin-top: 25px;
    margin-bottom: 25px;
    padding-right: 140px;
-   padding-left: 140px;
+   padding-left: 140px; **/
 }
 /* Full-width input fields */
-input[type=email], input[type=password] {
+/* input[type=email], input[type=password] {
     width: 100%;
     padding: 5px;
     margin: 5px 0 22px 0;
@@ -492,7 +495,7 @@ input[type=email], input[type=password] {
 /* .buttons1{
     width: 30px;
 } */
-span.psw {
+/* span.psw {
     float: right;
 }
 .login-buttons2{
@@ -518,12 +521,12 @@ span.psw {
     height: auto;
     float: right;
     margin-top: 100px; 
-}
+} */ 
 
-/*Login css code*/
+/*Login css code */
 
 /*signup css code*/
-.signupdivbig{
+/* .signupdivbig{
     background-size: cover;
     background-repeat: no-repeat;
     background: rgb(0,92,70); background: linear-gradient(90deg, rgba(0,92,70,1) 0%, rgba(15,131,0,1) 35%, rgba(34,139,34,1) 100%); 
@@ -540,9 +543,9 @@ span.psw {
 
 .signupinner-formcontrol{
     display: block;
-}
+} */
 /* Full-width input fields */
-input[type=email], input[type=text], input[type=password] {
+/* input[type=email], input[type=text], input[type=password] {
     padding: 10px;
     border: none;
     background: #f1f1f1; 
@@ -552,14 +555,12 @@ input[type=email], input[type=text], input[type=password] {
     margin-bottom: 10px;
 }
 .signupbtn{
-    /* appearance: none; */
     height: 3.125rem;
     width: 20%;
     font-size: 1.2rem;
     font-weight: 400;
     color: rgb(255, 255, 255);
     border-radius: 1.625rem;
-    /* border-width: 0px; */
     margin-top: 20px;
     
 }
@@ -572,4 +573,4 @@ input[type=text]:focus, input[type=password]:focus {
         width: 40%;
  }
 }
-/*signup css code*/
+signup css code */
