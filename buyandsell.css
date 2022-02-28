@@ -19,16 +19,16 @@ margin-right: auto;
     padding-top: 10px;
 }
 .center{
-    margin-top: 20px;
+    margin-top: 30px;
     margin-bottom: 60px; 
     text-align: center;  
 }
 
-.center p {
+/* .center p {
     font-size: 20px;
     font-weight: bold;
     color:  rgba(0,92,70,1);
-}
+} */
 .shadow-sm {
     box-shadow: 0 .125rem .25rem rgba(0,0,0,.075)!important;
 }

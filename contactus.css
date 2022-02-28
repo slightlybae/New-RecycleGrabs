@@ -3,100 +3,17 @@
 }
 .bg__gradient { background: rgb(0,92,70); background: linear-gradient(90deg, rgba(0,92,70,1) 0%, rgba(15,131,0,1) 35%, rgba(34,139,34,1) 100%); } 
 
-
 @media(min-width:768px){
- .maximum-width{
-        max-width: 900px;
-margin-left: auto;
-margin-right: auto;
-}
-}
-.recycle-text{
-    color: white;
-}
-.contactustitle{
-    margin-top: 50px;
-}
-.contactus-lead{
-    color: white;
-    font-size: 18px;
-}
-.img-fluid{
-    max-width: 70%;
-    height: auto;
-}
-
-.contactus-jumbotron {
-    height: 55vh;
-}
-
-.jumbotron-inner {
-   height: 100%;
-align-items: center;
-}
-
-@media(min-width: 1200px) {
-   .fs-2 {
-      font-size: 4rem !important;
+    .maximum-width{
+           max-width: 900px;
+   margin-left: auto;
+   margin-right: auto;
    }
 }
 
-.fs-2 {
- font-size: calc(3.325rem + .9vw) !important;
-}
-
-.lead {
- color: #fffffff2;
-}
-.lead .fw-bold {
-    color: rgb(18,51,63);
-}
-
-
-@media (max-width: 500px) {  
-  .icon-image {
-    display: none !important;
- }
-
-.contactus-jumbotron {
-     height: 55vh;
-}
-}
-.contactussection-2{
-   
-    max-width: 900px;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 40px;
-    /* padding-left: 5px;
-    padding-right: 5px; */
-}
-.shadow-sm {
-    box-shadow: 0 .125rem .25rem rgba(0,0,0,.075)!important;
-}
-
-.card {
-    position: relative;
-    display: flex;
-    flex-direction: column;
-    min-width: 0;
-    word-wrap: break-word;
-    background-color: #fff;
-    background-clip: border-box;
-    border: 1px solid rgba(0,0,0,.125);
-    border-radius: 0.25rem;
-}
-.card-body {
-    flex: 1 1 auto;
-    padding: 1rem 1rem;
-}
-.card-textt{
-    text-align: left;
-}
 .contactussection-3{
     margin-top: 50px; 
-    padding-right: 5px;
-    padding-left: 5px;
+    
 } 
 .contactusheader-text{
     color: #fff;
@@ -106,12 +23,10 @@ align-items: center;
 .contactusheader-text h2{
   font-size: 40px;
 }
-input[type=text], select, textarea {
+input[type=text], textarea {
     width: 100%;
     padding: 12px;
     border: none;
-    /* border-radius: 4px;
-    box-sizing: border-box; */
     margin-top: 6px;
     margin-bottom: 16px;
     resize: vertical;
@@ -124,14 +39,22 @@ input[type=submit] {
     border: none;
     border-radius: 4px;
     cursor: pointer;
+    color: white;
 }
   
-  input[type=submit]:hover {
+input[type=submit]:hover {
     background-color: #45a049;
 }
   
 .contactus-formcontainer {
     border-radius: 5px;
+    padding: 0 25px;
+}
+.shadow-sm {
+    box-shadow: 0 .125rem .25rem rgba(0,0,0,.075)!important;
+}
+.contactusbtn{
+    margin-bottom: 10px;
 }
 
 .footer{
