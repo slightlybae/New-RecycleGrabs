@@ -6,12 +6,12 @@
         integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
     <title>RecycleGrabs</title>
-    <link rel="stylesheet" href="login.css">
+    <link rel="stylesheet" href="account.css">
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 
-<body>
+<body class="_bd">
     <!-- Navigation -->
     <nav class="navbar navbar-expand-lg navbar-light bg__gradient">
         <div class="container-fluid maximum-width">
@@ -30,14 +30,13 @@
                     <li class="nav-item">
                         <a class="nav-link text-white" href="buyandsell.html">Buy&Sell</a>
                     </li>
-                    <!-- <li class="nav-item">
+                    <li class="nav-item">
                         <a class="nav-link text-white" href="blog.html">Blog</a>
-                    </li> -->
+                    </li>
                     <li class="nav-item">
                         <a class="nav-link text-white" href="contactus.html">Contact Us</a>
                     </li>
                 </ul>
-                
                 <span class="navbar-text text-white">
                     <!-- Account -->
                     <div class="nav-item dropdown ">
@@ -47,80 +46,90 @@
                         </a>
                         <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
                             <li><a class="dropdown-item" href="login.html">Sign In</a></li>
-                            <li><a class="dropdown-item" href="account.html">My Account</a></li>
+                            <li><a class="dropdown-item" href="login.html">My Account</a></li>
                             <li><a class="dropdown-item" href="#">Orders</a></li>
                             <li><a class="dropdown-item" href="#">Saved Items</a></li>
                         </ul>
                     </div>
                 </span>
-                <div class="cart">
-                    <!-- <li class="nav-item"> -->
-                        <a class="nav-link text-white" href="cart.html">Cart <i class="bi bi-cart4"></i></a>
-                    <!-- </li> -->
-                </div>
             </div>
         </div>
     </nav>
     <!-- Navigation -->
 
 
-    <!--Form section-->
-    <div class="login-big-formdiv maximum-width">
-        <div class="outer1">
-            <div class="login-headertext">
-                <p>Welcome Back, Please login<br> to your account</p>
-            </div>
-            <div class="login-buttons1">
-                <button type="button" class="btn btn-primary" href="#!" role="button"><i
-                        class="bi bi-meta"></i> login with meta</button>
-                <button type="button" class="btn btn-primary" href="#!" role="button"><i
-                        class="bi bi-twitter"></i> Login with twitter</button>
-            </div>
+    <div class="acc maximum-width">
+        <h3 class="acctheader">Account Information</h3>
 
-             <!--The OR text-->
-            <div class="login-or">
-                <p>- OR -</p>
-            </div>
-            <!--The OR text-->
-    
-             <!--form main-->
-            <form class="login-formdiv">
-                <div class="inner-login-formdiv">
-                    <label for="email">Email Address</label>
-                    <input type="email" placeholder="" name="email">
-    
-                    <label for="password">Password</label>
-                    <input type="password" placeholder="" name="password">
-    
-                    <div>
-                        <label>
-                            <input type="checkbox" checked="" name="remember"> Remember me
-                        </label>
-                        <span class="psw">Forgot <a href="#">password?</a></span>
-                    </div>
-                    <div class="login-buttons2">
-                        <button type="submit" class="btn btn-danger btn-floating btns" onclick="document.location=''">Login</button>
-                        <button type="button" class="btn btn-light btn-floating btns" onclick="document.location='signup.html'">SignUp</button>
-                    </div>
+        <div class="abc">
+            <div class="def">
+                <div class="ghi">
+                    <div class="_ai"><a href=""><i class="profile bi bi-person-circle"></i> My Profile </a></div>
 
-                     <!--Terms and conditions text-->
-                    <div id="formHelp" class="login-form-text">By Signing Up, you agree to RecycleGrabs <a href="#">Terms and Condition</a> &
-                        <a href="#">Privacy Policy</a>.</div>
-                         <!--Terms and conditions text-->
+                    <div class="_ai"><a href=""><i class="profile bi bi-house-door"></i> Delivery Address </a></div>
+
+                    <div class="_ai"><a href=""><i class="profile bi bi-bag"></i> My Order</a></div>
+
+                    <div class="_ai"><a href=""><i class="bi bi-heart"></i> Saved items</a></div>
+
+                    <div class="_hr"><button>LOGOUT</button></div>
                 </div>
-            </form>
-             <!--form main-->
+            </div>
+
+
+            <div class="fa49a">
+                <h5>Personal Details</h5>
+                <hr>
+                <form action="/action_page.php" class="_1jhgp">
+                    <div>
+                        <label for="fname" class=""> First Name</label>
+                        <input type="text" name="fname" class="" required>
+                    </div>
+
+                    <div>
+                        <label for="fname" class="">Last Name</label>
+                        <input type="text" name="lname" class="" required>
+                    </div>
+
+                    <div>
+                        <label for="inputEmail1" class="signupdiv"> Email Address </label>
+                        <input type="email" name="email" class="signupdiv" id="inputEmail1">
+                    </div>
+
+                    <div>
+                        <label for="inputPassword1" class=""> Current Password </label>
+                        <input type="password" class="signupdiv" name="current_password" id="inputPassword1">
+                    </div>
+
+                    <div>
+                        <label for="inputNewPassword" class=""> New Password </label>
+                        <input type="password" name="new_password" class="" id="inputNewPassword">
+                    </div>
+
+                    <div>
+                        <label for="inputConfirmPassword" class=""> Confirm Password </label>
+                        <input type="password" name="confirm_password" class="" id="inputConfirmPassword">
+                    </div>
+
+
+                    <div>
+                        <button type="submit" onclick="document.location=''" class="savebtn">Save Changes</button>
+                    </div>
+
+                </form>
+            </div>
+
 
         </div>
 
-         <!--icon image on the right-->
-        <div class="login-rightaligned">
-            <img src="Images\icon.png" alt="icon image">
-        </div>
-         <!--icon image on the right-->
 
     </div>
-    <!--form section-->
+
+
+
+
+
+
 
 
 
@@ -151,7 +160,7 @@
                 <!-- Grid column -->
                 <div class="col-md-2">
                     <h6 class="text-uppercase font-weight-bold">
-                        <a class="text-reset text-decoration-none" href="blog.html">Blog</a>
+                        <a class="text-reset text-decoration-none" href="#!">Blog</a>
                     </h6>
                 </div>
                 <!-- Grid column -->

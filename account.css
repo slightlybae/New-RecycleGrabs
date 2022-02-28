@@ -1,0 +1,139 @@
+* {
+    box-sizing: border-box;
+}
+.bg__gradient { background: rgb(0,92,70); background: linear-gradient(90deg, rgba(0,92,70,1) 0%, rgba(15,131,0,1) 35%, rgba(34,139,34,1) 100%); } 
+
+._bd{
+    background-color: rgb(220, 230, 227);
+}
+@media(min-width:768px){
+ .maximum-width{
+        max-width: 900px;
+margin-left: auto;
+margin-right: auto;
+}
+}
+.acc{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    
+
+}
+.abc{
+    display: flex;
+    justify-content: center;
+    box-sizing: border-box;
+    width: 100%;
+    color: #282828;
+    margin-top: 20px;
+   
+}
+@media (max-width: 500px){
+    .def{
+       display: none !important;
+    }
+}
+.def{
+    width: 25%;
+    display: block;
+    border-radius: 4px;
+}
+
+.ghi{
+    box-shadow: 0 2px 5px 0 rgb(0 0 0 / 5%);
+    background-color: #fff;
+    padding: 0 15px;
+}
+.ghi i{
+    margin-right: 16px;
+    width: 24px;
+    height: 24px;
+}
+._ai{
+    padding-bottom: 15px;
+    padding-top: 15px;
+    font-weight: 500;
+    align-items: center;
+}
+._ai a{
+    text-decoration: none;
+    color: #282828;
+}
+._hr{
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+
+}
+._hr button{
+    background: none;
+    border-style: none;
+    font-weight: 600;
+    color: rgba(34,139,34,1);
+}
+._hr button :hover{
+    color: black;
+    
+}
+.fa49a{
+    width: 75%;
+    display: block;
+    border-radius: 4px;
+    margin-left: 30px;
+    background-color: #fff;
+    padding: 0 15px;
+}
+.fa49a h5{
+    margin-top: 10px;
+
+}
+
+._1jhgp{
+    box-shadow: 0 2px 5px 0 rgb(0 0 0 / 5%);
+    /* background-color: #fff; */
+    /* padding: 0 15px; */
+    margin-top: 10px; 
+}
+._1jhgp label{
+    color: #4a4a4a;
+   font-size: .8125rem;
+}
+._1jhgp input{
+    padding: 10px;
+    border: none;
+    box-sizing: border-box;
+    width: 100%;
+    border: 1px solid black;
+    /* height: 2.75rem; */
+    margin-bottom: 10px;
+    display: block;
+ 
+}
+.savebtn{
+    width: 100%;
+    height: 35px;
+    color: white;
+    background-color: #33b27b;
+    border-style: none;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+    text-decoration: none;
+}
+ /* input[type=email], input[type=text], input[type=password] {
+    padding: 10px;
+    border: none;
+    background: #f1f1f1; 
+    box-sizing: border-box;
+    width: 50%;
+    height: 2.75rem;
+    margin-bottom: 10px;
+    display: block;
+} */
+  
+
+.footer{
+    margin-top: 150px;
+}
+
