@@ -61,79 +61,52 @@
 
 
     <div class="acc maximum-width tabview">
-        <h3 class="acctheader">Account Information</h3>
+        <h3 class="acctheader">Account Order</h3>
 
         <div class="abc">
             <div class="def">
                 <div class=" tabview ghi">
 
-                    <div class="tab_links"><a class="tablinks" onclick="openAcct(event, 'acctform')" id="defaultOpen"><i
-                    class="profile bi bi-person-circle"></i> My Profile </a></div>
+                    <div class="tab_links"><a href="account.html" class="tablinks"><i
+                                class="profile bi bi-person-circle"></i> My Profile </a></div>
 
-                    <div class="tab_links"><a class="tablinks" onclick="openAcct(event, 'dlvAddress')" href="deliveryaddress.html"><i class="profile bi bi-house-door"></i> Delivery Address </a>
+                    <div class="tab_links"><a class="tablinks" href="deliveryaddress.html"><i class="profile bi bi-house-door"></i> Delivery
+                            Address </a>
                     </div>
 
-                    <div class="tab_links"><a class="tablinks" onclick="openAcct(event, '')" href="myorder.html"><i class="profile bi bi-bag"></i> My Order</a></div>
+                    <div class="tab_links"><a class="tablinks" onclick="openAcct(event, '')" href="myorder.html"><i
+                                class="profile bi bi-bag"></i> My Order</a></div>
 
-                    <div class="tab_links"><a class="tablinks" onclick="openAcct(event, '')" href=""><i class="bi bi-heart"></i> Saved items</a></div>
+                    <div class="tab_links"><a class="tablinks" onclick="openAcct(event, '')" href="saveditems.html"><i
+                                class="bi bi-heart"></i> Saved items</a></div>
 
-                    <div class="_hr tab_links"><button>LOGOUT</button></div>
+                    <div class="_hr tab_links"><button type="button">LOGOUT</button></div>
                 </div>
             </div>
 
 
-            <div class="tabcontent" id="acctform">
-                <h4>Personal Details</h4>
-                <form action="/action_page.php" class="tabcontents" >
-                    <div class="_ai">
-                        <label for="fname" class=""> First Name</label>
-                        <input type="text" name="fname" class="" required>
-                    </div>
+            <div class="tabcontent dlv" id="order">
+                <div class="or_der">
+                    <img src="Images\images.png" alt="no transcation">
+                    <h4>No transcation history.</h4>
+                    <p>You have not made any purchase recently</p>
+            
+                </div>
 
-                    <div class="_ai">
-                        <label for="fname" class="">Last Name</label>
-                        <input type="text" name="lname" class="" required>
-                    </div>
-
-                    <div class="_ai">
-                        <label for="inputEmail1" class="signupdiv"> Email Address </label>
-                        <input type="email" name="email" class="signupdiv" id="inputEmail1">
-                    </div>
-
-                    <div class="_ai">
-                        <label for="inputPassword1" class=""> Current Password </label>
-                        <input type="password" class="signupdiv" name="current_password" id="inputPassword1">
-                    </div>
-
-                    <div class="_ai">
-                        <label for="inputNewPassword" class=""> New Password </label>
-                        <input type="password" name="new_password" class="" id="inputNewPassword">
-                    </div>
-
-                    <div class="_ai">
-                        <label for="inputConfirmPassword" class=""> Confirm Password </label>
-                        <input type="password" name="confirm_password" class="" id="inputConfirmPassword">
-                    </div>
+               
 
 
-                    <div>
-                        <button type="submit" onclick="document.location=''" class="savebtn">Save Changes</button>
-                    </div>
+                </div>
 
-                </form>
             </div>
 
-            
+
         </div>
 
 
     </div>
 
-    <div class="tabcontent" id="dlvAddress">
-        <h3>Delivery Address</h3>
-        
 
-    </div>
 
 
 
