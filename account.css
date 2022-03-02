@@ -173,10 +173,79 @@ margin-right: auto;
 .or_der p{
     font-size: 14px;
 }
+
 .dlvAddress{
     display: none;
 }
+.orders{
+    display: none;
+}
+.my_order{
+    padding-top: 20px;
+}
+table{
+    width: 100%;
+    outline: none;
+}
+.holder img{
+    width: 50%;
+}
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding:4px;
+  font-size: 13px;
+ 
+}
+.holder{
+    display: flex;
+}
+.holder p{
+    padding-left: 10px;
+}
+th{
+    width: 10%;
+    
+}
 
+td button{
+    width: 70%;
+    /* height: 10px; */
+    font-size: 12px;
+    margin-bottom: 10px;
+    outline: none;
+    border: 1px solid gray;
+}
+/* tr:nth-child(even) {
+    background-color: #dddddd;
+}  */
+.order_header{
+    margin-bottom: 10px;
+    background-color: #dddddd;
+}
+.order_header_text{
+    font-weight: bold;
+}
+/* .order_card-text{
+    display: block;
+} */
+.order_btn{
+    margin-top: 10px;
+    margin-bottom: 10px;
+   
+}
+.order-card-body button{
+    outline: none;
+    background: none;
+    border: none;
+    color: blue;
+   
+
+}
+.order-card-body{
+    padding: 2px 10px;
+
+}
 .footer{
     margin-top: 150px;
 }
