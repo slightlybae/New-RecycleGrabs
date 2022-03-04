@@ -155,29 +155,107 @@ margin-right: auto;
       }
 }
 .seller_card{
+    width: 400px;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    border-top: 2px solid rgba(15,131,0,1);
+    border-radius: 5px;
+    box-shadow: 2px 4px 10px rgba(0, 0, 0, 0.2);
+}
+._aa{
+    display: flex;
+    margin-top: 25px;
+    /* justify-content: space-between; */
     
-    box-shadow: #fff;
-    align-self: center;
-    /* border: 1px solid gray; */
-    display: none;
+}
+.seller_card ._aa {
+    width: 100%;
+    display: flex;
+    flex-flow: row nowrap;
+    margin-bottom: 15px;
+}
+.text_box{
+    width: 50%;
+    margin-right: 10px;
+    margin-left: 10px;
+    background-color: #eee;
+    border: none;
+} 
+.ssf{
+    background-color: #eee;
+    border: none;
+    width: 380px;
+   
+} 
+._sf{
+    margin-top: 10px;
+    margin-bottom: 15px; 
+    margin-right: 15px;
+    margin-left: 10px;
+} 
+.seller_form input[type=text], input[type=password], input[type=tel], input[type=email] {
+    padding: 6px 5px;
+    /* margin: 8px 0;  */
+    border: 1px solid #ccc;
+    overflow: hidden;
+}
+.seller_form button{
+    width: 45%;
+    height: 30px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+} 
+.create_accBtn, .slogin_accBtn{
+    color:white;
+    background-color: rgba(15,131,0,1);
+    border: none;
+    border-radius: 4px;
+    text-align: center;
+}
+.signup_sellerText, .login_sellerText{
+    padding-bottom: 20px;
+    font-size: 13px;
+}
+.signup_sellerText a, .lseller_ftext a, .login_sellerText a{
+    text-decoration: none;
+    color: rgba(15,131,0,1); ;
+}
+.login_sellerText{
+    font-size: 15px;
+}
+.lseller_ftext{
+    font-size: 13px;
 
 }
-.seller_form{
-    display: none;
-    width: 100%;
-    margin-top: 20px;
-    margin-bottom: 20px;
+@media ( max-width: 640px) {
+    .center{
+        width: 350px;
+    }
+    .seller_card ._aa {
+        width: 320px;
+    }
+    .ssf{
+        width: 98%;
+        display: block;
+       
+    }
+    .seller_card{
+        width: 330px;
+        
+    } 
     
 }
-.seller_form, input[type=text], input[type=password], input[type=number] {
-    width: 70%;
-    padding: 12px 20px;
-    margin: 8px 0;
-    display: inline-block;
-    border: 1px solid #ccc;
-    box-sizing: border-box;
-  }
-  
+.sl{
+    margin-top: 30px;
+}
+.sl label{
+    font-weight: 600;
+    display: flex;
+    margin-bottom: .5rem;
+}
 .footer{
     margin-top: 150px;
 }

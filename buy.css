@@ -48,6 +48,34 @@ margin-right: auto;
     flex: 1 1 auto;
     padding: 1rem 1rem;
 }
+.bi.bi-heart.si_i{
+    float: right;
+}
+.productdiv{
+    padding-right: 5px;
+    padding-left: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+}
+.proudctimage{
+    width: 60%;
+    height: 450px;
+    float: left;
+    border-radius: 5px;
+} 
+.producttitle, .productprice{
+    font-weight: 600;
+    font-size: 20px;
+
+}
+.producttext, .productlocation{
+    font-weight: 600;
+    font-size: 15px;
+}
+.productbtn{
+    margin-top: 50px;
+}
 .section-2{
     max-width: 900px;
     margin-left: auto;

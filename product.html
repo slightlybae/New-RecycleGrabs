@@ -6,12 +6,12 @@
         integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
     <title>RecycleGrabs</title>
-    <link rel="stylesheet" href="account.css">
+    <link rel="stylesheet" href="buy.css">
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 
-<body class="_bd">
+<body>
     <!-- Navigation -->
     <nav class="navbar navbar-expand-lg navbar-light bg__gradient">
         <div class="container-fluid maximum-width">
@@ -31,7 +31,7 @@
                         <a class="nav-link text-white" href="buy.html">Buy</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link text-white" href="sell.html">Selllog</a>
+                        <a class="nav-link text-white" href="sell.html">Sell</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link text-white" href="contactus.html">Contact Us</a>
@@ -64,124 +64,41 @@
 
 
 
-
-    <div class="acc maximum-width tabview">
-        <h3 class="acctheader">Address Information</h3>
-
-        <div class="abc">
-            <div class="def">
-                <div class=" tabview ghi">
-
-                    <div class="tab_links"><a href="account.html" class="tablinks"><i
-                                class="profile bi bi-person-circle"></i> My Profile </a></div>
-
-                    <div class="tab_links"><a class="tablinks" href=""><i class="profile bi bi-house-door"></i> Delivery
-                            Address </a>
-                    </div>
-
-                    <div class="tab_links"><a class="tablinks" onclick="openAcct(event, '')" href="myorder.html"><i
-                                class="profile bi bi-bag"></i> My Order</a></div>
-
-                    <div class="tab_links"><a class="tablinks" onclick="openAcct(event, '')" href="saveditems.html"><i
-                                class="bi bi-heart"></i> Saved items</a></div>
-
-                    <div class="_hr tab_links" onclick="document.location='index.html'"><button>LOGOUT</button></div>
-                </div>
-            </div>
-
-
-            <div class="tabcontent dlv" id="acctform">
-                <div class="dlv_inner">
-                    <h4 class="_bi"> Delivery Address <button class="dlvadd"
-                            onclick="document.getElementById('dlvyAddress').style.display = 'block'"> Add New Address
-                        </button></h4>
-                    <hr>
-
-                </div>
-
-                <div class="tabcontents dlvAddress" id="dlvyAddress">
-                    <form action="/action_page.php">
-                        <div class="_ai">
-                            <label for="fname" class=""> Full Name</label>
-                            <input type="text" name="fname" class="" required>
-                        </div>
-
-                        <div class="_ai">
-                            <label for="pnumber" class=""> Phone Number </label>
-                            <input type="number" name="PhoneNumber" class="" required>
-                        </div>
-
-                        <div class="_ai">
-                            <label for="inputSAddress" class="signupdiv"> Street Address </label>
-                            <input type="text" name="StreetAddress" class="" id="inputSAddress">
-                        </div>
-
-                        <div class="_ai">
-                            <label for="inputcity" class=""> City </label>
-                            <input type="text" class="" name="city" id="inputcity">
-                        </div>
-
-                        <div class="_ai">
-                            <label for="inputState" class=""> State </label>
-                            <input type="state" name="state" class="" id="inputState">
-                        </div>
-
-                        <div class="_ai">
-                            <label for="inputLGA" class="">LGA (Local Govt.Area) </label>
-                            <input type="text" name="inputLGA" class="" id="inputLGA">
-                        </div>
-
-
-                        <div>
-                            <button type="submit" onclick="document.location=''" class="savebtn">Continue</button>
-                        </div>
-
-                    </form>
-
-
-                </div>
-
+    <!-- This displays the product-->
+    <div class="maximum-width">
+        <div class="productdiv">
+            <div class="">
                 <div class="">
-                    <div class="row g-3 section-2">
-                        <div class="col-md-6">
-                            <div class="card shadow-sm">
-                                <div class="order-card-body">
-                                    <p class="order_header_text"><i class="bi bi-person "></i> chino Beata,
-                                        +2348077177920 </p>
-                                    <p class="order_card-text"><i class="bi bi-geo-alt-fill"></i> University of Port
-                                        Harcourt,choba<br>
-                                        East west road, Choba, River State<br>
-                                        Port Harcourt, Rivers,<br> Nigeria,<br> 500004
-                                    </p>
-                                    <div class="order_btn">
-                                        <button> Edit</button>
-                                        <button> Delete</button>
-
-                                    </div>
-
-
-
-                                </div>
-                            </div>
-                        </div>
+                    <!-- <h5 class="modal-title" id="exampleModalLabel">Recyclable Prescription Bottles</h5> -->
+                </div>
+                <div class="modal-body">
+                    <img src="Images\haley-lawrence-HTttz00wkzU-unsplash-compressed.jpg" class="proudctimage" alt="">
+                    <div class="modalright proudctdes">
+                        <h5 class="producttitle">Recyclable Prescription Bottles</h5>
+                        <hr>
+                        <P class="productprice">₦ 1,000</P>
+                        <hr>
+                        <P class="producttext">Qty/Weight: 500 Pieces</P>
+                        <hr>
+                        <P class="productlocation">Location: Rivers State</P>
+                        <hr>
+                        <p>Description: Clean and neat Prescription bottles. </p>
+                        <hr>
+                        <p> Save for later <i class="bi bi-heart"> </i></p>
+                        <hr>
+                        <div class="productbtn">
+                            <button type="button" class="btn btn-success">Buy <i
+                                class="bi bi-cart4 hii"></i></button> 
+                        </div>  
+                        
+                
+                       
                     </div>
                 </div>
             </div>
-
         </div>
-
-
     </div>
-
-
-    </div>
-
-
-
-
-
-
-
+    <!--This displays the product-->
 
 
 
@@ -213,7 +130,7 @@
                 <!-- Grid column -->
                 <div class="col-md-2">
                     <h6 class="text-uppercase font-weight-bold">
-                        <a class="text-reset text-decoration-none" href="#!">Blog</a>
+                        <a class="text-reset text-decoration-none" href="blog.html">Blog</a>
                     </h6>
                 </div>
                 <!-- Grid column -->

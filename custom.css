@@ -112,8 +112,10 @@ align-items: center;
     width: 100%;
     padding: 10px;
     box-sizing: border-box;
-   }
-
+}
+.bi.bi-heart.si_i{
+    float: right;
+}
 .section-3-inner div{
     margin-right: 0.2rem;
 }

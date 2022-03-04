@@ -11,10 +11,10 @@
    }
 }
 
-.contactussection-3{
+/* .contactussection-3{
     margin-top: 50px; 
     
-} 
+}  */
 .contactusheader-text{
     color: #fff;
     padding-top: 30px;
@@ -47,8 +47,10 @@ input[type=submit]:hover {
 }
   
 .contactus-formcontainer {
+    max-width: 600px;
     border-radius: 5px;
     padding: 0 25px;
+    padding-bottom: 30px;
 }
 .shadow-sm {
     box-shadow: 0 .125rem .25rem rgba(0,0,0,.075)!important;
